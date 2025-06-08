@@ -31,6 +31,7 @@ Beyond simple extraction, the application also stores this data persistently, en
 ---
 
 ## File Structure
+---
 
 resume_skill_extractor/
 │
