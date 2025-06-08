@@ -33,24 +33,41 @@ Beyond simple extraction, the application also stores this data persistently, en
 ## File Structure
 ---
 
-resume_skill_extractor/
-│
-├── app.py                     # Main Streamlit application
-├── create_resume.py           # Helper for resume creation (if applicable)
-├── extractor.py               # Core logic for resume data extraction
-├── storage.py                 # Handles data storage and retrieval (e.g., JSON)
-├── utils.py                   # Utility functions
-├── parsed_data.json           # Stores all extracted resume data persistently
-├── requirements.txt           # Python dependencies
-├── Dockerfile                 # For containerized deployment (to be added)
-│
-└── sample_resumes/            # Directory for sample PDF resumes
-    ├── resume_1.pdf
-    ├── resume_2.pdf
-    └── resume_3.pdf
+- **resume_skill_extractor/**  
+  Main project folder containing the following files and directories:
 
+  - `app.py`  
+    Main Streamlit application.
+
+  - `create_resume.py`  
+    Helper script for resume creation (if applicable).
+
+  - `extractor.py`  
+    Core logic for extracting resume data.
+
+  - `storage.py`  
+    Handles data storage and retrieval (e.g., JSON files).
+
+  - `utils.py`  
+    Utility functions used throughout the project.
+
+  - `parsed_data.json`  
+    Stores all extracted resume data persistently.
+
+  - `requirements.txt`  
+    List of Python dependencies.
+
+  - `Dockerfile`  
+    Docker configuration file for containerized deployment (to be added).
+
+  - **sample_resumes/**  
+    Directory containing sample PDF resumes:
+    - `resume_1.pdf`
+    - `resume_2.pdf`
+    - `resume_3.pdf`
 
 ---
+
 
 ## Getting Started
 
